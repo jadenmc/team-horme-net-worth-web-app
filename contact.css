@@ -157,17 +157,19 @@ fieldset {
     color: green;
 }
 
+
+/*change*/
 .contact-modal-open-btn{
     position: fixed;
     bottom: 0;
     right: 5px;
     padding: 10px;
-    margin-bottom: 15px;
+    /*margin-bottom: 15px;*/
     background: rgb(38, 155, 120);
     font-size: 12px;
     cursor: pointer;
     color: #fffffffb;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.24), -1px -1px 5px rgba(0, 0, 0, 0.24);
+    /*box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.24), -1px -1px 5px rgba(0, 0, 0, 0.24);*/
 }
 .contact-modal-open-btn:hover{
     background: transparent;

@@ -48,6 +48,19 @@ include("process/contact_process.php");
                 margin: 0px 180px 0px;
                 
             }
+
+            /*Nav and contact us Settings*/
+            .contact{
+                position: static;
+                font-size: 15px;
+            }
+            .Nav_hover:hover{
+                background-color: rgba(0,0,0,0.5);
+                 text-decoration: none;
+            }
+            .Nav_pad{
+                 padding: 10px;
+            }
         </style>
     </head>
     <body>
@@ -65,12 +78,13 @@ include("process/contact_process.php");
                 />
             </span>
             
-            <a href="Faq.html" class="text-light font-weight-bold">FAQ</a>
-            <a href="Help.html" class="text-light font-weight-bold">Help</a>
-            <a href="subscribe.php" class="text-light font-weight-bold align-left">Subscribe</a>
+            <a href="Faq.html" class="text-light font-weight-bold Nav_hover Nav_pad">FAQ</a>
+            <a href="Help.html" class="text-light font-weight-bold Nav_hover Nav_pad">Help</a>
+            <a href="subscribe.php" class="text-light font-weight-bold align-left Nav_hover Nav_pad">Subscribe</a>
+            <div class="contact-modal-open-btn contact text-light font-weight-bold Nav_hover"> Contact Us </div>
         </nav>
         <div class="container-fluid">
-			<div style="color: green;"><?php echo $messageSent; ?></div>
+			<div style="color: green;">  </div>
             <div
                 class="row pt-2 float-sm-left"
                 style="min-height: 100vh;"
@@ -299,9 +313,11 @@ include("process/contact_process.php");
 					</form>
 				  </div>
 				</div>
-			<div style="margin: 10px 0 0 80px; height: 60px; padding:3px;" class="contact-modal-open-btn">
+
+                <!-- change --> 
+			<!-- <div style="margin: 10px 0 0 80px; height: 60px; padding:3px;" class="contact-modal-open-btn">
 				<h2>Contact Us.</h2>
-			</div>
+			</div> -->
       
       
       	  <!--Beginning of cookie notification modal-->
